@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: integration-sap
+sap:
+  host: ${SAP_HOST}
+  client: ${SAP_CLIENT:100}
+  system-number: ${SAP_SYSTEM_NUMBER:00}
